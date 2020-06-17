@@ -4,9 +4,9 @@ const Markup = require('telegraf/markup');
 const Extra = require('telegraf/extra');
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
-bot.catch((err, ctx) => {
-  console.log(`Ooops, encountered an error for ${ctx.updateType}`, err);
-});
+// bot.catch((err, ctx) => {
+//   console.log(`Ooops, encountered an error for ${ctx.updateType}`, err);
+// });
 
 bot.start(ctx =>
   ctx.reply(
