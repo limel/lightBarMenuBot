@@ -1,0 +1,17 @@
+{
+  "name": "light_bar_bot_v2",
+  "version": "1.0.0",
+  "description": "light bar menu card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "author": "Limel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0",
+    "telegraf-keyboard": "^1.1.2"
+  }
+}
