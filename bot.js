@@ -90,7 +90,7 @@ bot.hears('Бургер меню 🍔', ctx => {
 bot.hears('Салаты 🥗', ctx => {
   ctx.replyWithMediaGroup([
     {
-      media: { source: 'greekSalad.png' },
+      media: { source: 'img/greek.png' },
       caption:
         'Греческий -Томаты, огурец, лук марс, сыр фета, маслины, перец болгарский - 200гр - 58грн',
       type: 'photo',
@@ -178,13 +178,13 @@ bot.hears('Фри меню 🍟', ctx => {
       type: 'photo',
     },
     {
-      media: { source: 'nuggets.png' },
+      media: { source: 'img/nuagets.png' },
       caption: 'Наггетсы - 250гр - 59грн',
       type: 'photo',
     },
 
     {
-      media: { source: 'cheeseStick.png' },
+      media: { source: 'img/nuagets.png' },
       caption: 'Сырные палочки - 180гр - 45грн',
       type: 'photo',
     },
@@ -208,7 +208,7 @@ bot.hears('Десерты 🧁', ctx => {
     },
 
     {
-      media: { source: 'chocolateBrauni.png' },
+      media: { source: 'img/brauni.png' },
       caption: 'Шоколадный брауни с грецкими орехами - 60грн',
       type: 'photo',
     },
